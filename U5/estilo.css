@@ -1,6 +1,6 @@
 * {
 	margin: 0px; padding: 0px;
-	font-family: arial, helvetica, sans-serif; color: #0bb664; background: #FFFFFF;
+	font-family: arial, helvetica, sans-serif; color: #065f34; background: #FFFFFF;
 	line-height: 1.3em;
 }
 
@@ -49,11 +49,11 @@ p span{
 }
 
 a {
-	color: #598eff; text-decoration: none; border-bottom: 1px dotted #598eff;
+	color: #0045da; text-decoration: none; border-bottom: 1px dotted #0045da;
 }
 
 a:visited {
-	color: #598eff; border-bottom: 1px solid #598eff;
+	color: #0045da; border-bottom: 1px solid #0045da;
 }
 
 a:focus, a:hover {
