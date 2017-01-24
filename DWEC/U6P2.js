@@ -9,11 +9,8 @@ onload = function() {
         localStorage.sexo = "H";
       } else if(M.checked) {
         localStorage.sexo = "M";
-      } else {
-        alert("Tu navegador no soporta WebStorage.")
-      }
-    }
-    if (window.sessionStorage != null) {
+      } 
+   
       sessionStorage.color = color.value;
       sessionStorage.poblacion = poblacion.value;
       if (selector.value == "V") {
