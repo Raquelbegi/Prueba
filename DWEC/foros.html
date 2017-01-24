@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Foros</title>
+		<script type="text/javascript">
+			onload = function() {
+				var letra;
+				if (localStorage.sexo == "H") {
+					letra = "o";
+				} else if (localStorage.sexo == "M") {
+					letra = "a";
+				}
+
+				h1.innerHTML = "¡Bienvenid" + letra + " a los foros " + localStorage.nombre + " " + localStorage.apellidos + "!";
+			}
+		</script>
+	</head>
+	<body>
+		<h1 id="h1"></h1>
+	</body>
+</html>
